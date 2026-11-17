@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS pending_registrations (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    full_name VARCHAR(120) NOT NULL,
+    email VARCHAR(254) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    farm_name VARCHAR(160) NOT NULL,
+    terms_version VARCHAR(32) NOT NULL,
+    privacy_version VARCHAR(32) NOT NULL,
+    authorization_confirmed TINYINT(1) NOT NULL DEFAULT 1,
+    consented_at DATETIME NOT NULL,
+    code_hash CHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    expires_at DATETIME NOT NULL,
+    code_attempts TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_pending_registrations_email (email),
+    KEY idx_pending_registrations_expiry (expires_at),
+    CONSTRAINT chk_pending_registrations_authorization CHECK (authorization_confirmed = 1),
+    CONSTRAINT chk_pending_registrations_attempts CHECK (code_attempts <= 5)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

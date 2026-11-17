@@ -1,0 +1,33 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'app_env' => 'development',
+    'db' => [
+        'host' => '127.0.0.1',
+        'port' => 3306,
+        'database' => 'mon_elevage_dev',
+        'username' => 'mon_elevage_app',
+        'password' => 'CHANGE_THIS_LOCAL_PASSWORD',
+        'charset' => 'utf8mb4',
+    ],
+    'base_url' => 'http://localhost/mon-elevage',
+    'default_currency' => 'XOF',
+    'google_oauth' => [
+        'client_id' => getenv('MON_ELEVAGE_GOOGLE_CLIENT_ID') ?: '',
+        'client_secret' => getenv('MON_ELEVAGE_GOOGLE_CLIENT_SECRET') ?: '',
+        'redirect_uri' => getenv('MON_ELEVAGE_GOOGLE_REDIRECT_URI') ?: '',
+    ],
+    'mail' => [
+        'transport' => 'smtp',
+        'from' => getenv('MON_ELEVAGE_MAIL_FROM') ?: 'noreply@example.test',
+        'from_name' => 'Mon Élevage',
+        'smtp' => [
+            'host' => getenv('MON_ELEVAGE_SMTP_HOST') ?: '',
+            'port' => (int) (getenv('MON_ELEVAGE_SMTP_PORT') ?: 587),
+            'username' => getenv('MON_ELEVAGE_SMTP_USERNAME') ?: '',
+            'password' => getenv('MON_ELEVAGE_SMTP_PASSWORD') ?: '',
+            'encryption' => getenv('MON_ELEVAGE_SMTP_ENCRYPTION') ?: 'tls',
+        ],
+    ],
+];

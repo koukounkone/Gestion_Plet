@@ -1,0 +1,26 @@
+# Local credentials and environment
+/config/local.php
+/.env
+/.env.*
+!/.env.example
+
+# Runtime data
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/exports/*
+!/storage/exports/.gitkeep
+/storage/receipts/*
+!/storage/receipts/.gitkeep
+/storage/reports/*
+!/storage/reports/.gitkeep
+/storage/pdf-font-cache/*
+/storage/pdf-temp/*
+
+# Composer output if dependencies are introduced later
+/vendor/
+/node_modules/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+Desktop.ini

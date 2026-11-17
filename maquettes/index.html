@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Maquette visuelle responsive de Mon Élevage. Prévisualisation de design, non fonctionnelle.">
+  <title>Mon Élevage — Maquettes visuelles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="prototype-banner"><span>MAQUETTE VISUELLE</span> Prévisualisation de design — données fictives, boutons métier non fonctionnels.</div>
+  <header class="public-header" id="public-header">
+    <a class="brand public-brand" href="#Accueil"><span class="brand-mark">M</span><span class="brand-name">Mon Élevage<small>GESTION AVICOLE</small></span></a>
+    <nav id="public-navigation" class="public-navigation" aria-label="Navigation publique"></nav>
+    <div class="public-header-actions">
+      <a class="public-login" href="#Connexion">Connexion</a>
+      <a class="public-register" href="#Inscription">Créer un compte</a>
+      <label class="preview-select-label" for="public-role-select">Aperçu</label>
+      <select id="public-role-select" aria-label="Changer d'espace de prévisualisation">
+        <option value="public" selected>Public</option>
+        <option value="farmer">Éleveur</option>
+        <option value="admin">Admin</option>
+      </select>
+    </div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Mon Élevage, accueil">
+        <span class="brand-mark">M</span><span class="brand-name">Mon Élevage<small>GESTION AVICOLE</small></span>
+      </a>
+      <div class="role-switch">
+        <label for="role-select">ESPACE DE PRÉVISUALISATION</label>
+        <select id="role-select" aria-label="Choisir un espace">
+          <option value="public">Site public</option>
+          <option value="farmer" selected>Espace éleveur</option>
+          <option value="admin">Administration</option>
+        </select>
+      </div>
+      <nav id="navigation" class="nav-list"></nav>
+      <div class="sidebar-profile">
+        <span class="avatar">AK</span><span class="profile-name">Aminata K.<small>Éleveuse · Ferme du Soleil</small></span>
+        <span class="profile-dots" aria-hidden="true">···</span>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <button class="icon-button menu-toggle" id="menu-toggle" type="button" aria-label="Ouvrir le menu">☰</button>
+        <div class="breadcrumbs"><span>Mon Élevage</span><b>/</b><strong id="crumb-current">Tableau de bord</strong></div>
+        <div class="topbar-actions">
+          <button class="icon-button notification-button" type="button" aria-label="Notifications">♧<i></i></button>
+          <span class="topbar-divider"></span>
+          <span class="topbar-date">Dimanche 11 octobre 2026</span>
+          <span class="avatar avatar-small">AK</span>
+        </div>
+      </header>
+      <main id="main-content" tabindex="-1"></main>
+      <footer class="app-footer"><span>© 2026 Mon Élevage</span><span>Maquette — interface de démonstration · <a href="ui-kit.html">Bibliothèque UI</a></span></footer>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

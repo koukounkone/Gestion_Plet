@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="title description">
+  <title id="title">Suivre une exploitation avicole</title>
+  <desc id="description">Poulailler, volaille, aliments et œufs illustrent le suivi d’un élevage.</desc>
+  <rect width="720" height="380" rx="28" fill="#eef6ef"/>
+  <circle cx="605" cy="78" r="36" fill="#f3d982"/>
+  <path d="M0 267c99-32 174-4 254-23 111-26 188 3 267-9 67-10 131-39 199-17v162H0Z" fill="#d7ead8"/>
+  <path d="M51 272h270v-99L186 97 51 173Z" fill="#fffdf7" stroke="#316c4b" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m35 179 151-101 151 101" fill="none" stroke="#23553e" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 205h68v67H92zm104-13h87v80h-87z" fill="#b9d8bd" stroke="#316c4b" stroke-width="6"/>
+  <path d="M214 221h67" stroke="#fffdf7" stroke-width="6"/>
+  <path d="M385 256c8-32 33-50 67-50 29 0 48 16 53 44l-22 21h-95Z" fill="#fffdf7" stroke="#316c4b" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="469" cy="190" r="26" fill="#fffdf7" stroke="#316c4b" stroke-width="6"/>
+  <path d="m491 185 29-8-22 21m-43-13h2m-42 85v17m60-17v17" fill="none" stroke="#316c4b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="469" cy="190" r="3" fill="#23553e"/>
+  <path d="M358 297h112l-16 31h-80Z" fill="#d6a65b" stroke="#8f6835" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M382 296v-15m31 15v-15m31 15v-15" stroke="#8f6835" stroke-width="5" stroke-linecap="round"/>
+  <path d="M557 272c-9-28 2-49 22-50 17-1 26 19 18 49-6 21-32 22-40 1Zm61 4c-9-27 2-48 21-49 16-1 24 18 17 47-6 20-30 22-38 2Z" fill="#fff3cd" stroke="#b48b45" stroke-width="5"/>
+  <path d="M75 310c8-19 18-31 34-34m-21 49c6-18 17-31 34-37m466 33c8-17 20-27 36-32" fill="none" stroke="#5d9662" stroke-width="6" stroke-linecap="round"/>
+  <path d="M330 112h46m-23-23v46" stroke="#8bb88d" stroke-width="7" stroke-linecap="round"/>
+</svg>

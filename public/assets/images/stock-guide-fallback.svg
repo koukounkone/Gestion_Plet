@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" role="img" aria-labelledby="title description">
+  <title id="title">Illustration de remplacement des stocks</title>
+  <desc id="description">Un sac d’aliment et un abreuvoir dans deux cases distinctes.</desc>
+  <rect width="520" height="340" rx="24" fill="#f5f8f4"/>
+  <rect x="28" y="28" width="216" height="284" rx="18" fill="#fff" stroke="#dce8dd" stroke-width="3"/>
+  <rect x="276" y="28" width="216" height="284" rx="18" fill="#fff" stroke="#dce8dd" stroke-width="3"/>
+  <path d="m83 121 18-31h67l18 31-10 104H93Z" fill="#e1bd7d" stroke="#9b7138" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M104 93V72h61v21m-58 72h72" fill="none" stroke="#9b7138" stroke-width="5" stroke-linecap="round"/>
+  <path d="M122 126c8-12 17-12 25 0-8 12-17 12-25 0Z" fill="#4a7b51"/>
+  <text x="136" y="262" fill="#34523c" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">CONSOMMABLE</text>
+  <path d="M332 148h103l-12 77h-80Z" fill="#cfe6e8" stroke="#397c83" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M350 148v-31h66v31m-72 21h78m-49-32h17" fill="none" stroke="#397c83" stroke-width="5" stroke-linecap="round"/>
+  <path d="M348 241h70m-60 0v12m50-12v12" fill="none" stroke="#397c83" stroke-width="5" stroke-linecap="round"/>
+  <text x="384" y="283" fill="#34523c" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle">RÉUTILISABLE</text>
+</svg>
